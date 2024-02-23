@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+*::selection {
+    background: #0ef;
+    color: #fff;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #282A35;
+}
+
+.wrapper {
+    padding-top: 20px;
+    position: relative;
+    width: 600px;
+    height: 400px;
+    background: url(/images/heart_love.avif);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+img {
+    width: 190px;
+    height: 150px;
+    vertical-align: middle;
+}
+
+h2 {
+    font-size: 3em;
+    color: #282A35;
+    margin: 15px 0;
+
+}
+
+.btn_group {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    position: absolute;
+    padding: 12px 60px;
+    font-size: 1.2em;
+    color: #e14b4b;
+    font-weight: 600;
+    border-radius: 30px;
+    border: 2px solid rgb(255, 20, 71);
+    box-shadow: 0 2px 4px rgba(0, 0, 0 0.5);
+    transition: .4s;
+}
+
+
+.yes_btn:hover {
+    box-shadow: 0px 0px 70px 5px rgba(255, 0, 0, 0.75);
+    -webkit-box-shadow: 0px 0px 70px 5px rgba(255, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 70px 5px rgba(255, 0, 0, 0.75);
+}
+
+.no_btn:hover {
+    box-shadow: 0px 0px 70px 5px rgba(255, 0, 0, 0.75);
+    -webkit-box-shadow: 0px 0px 70px 5px rgba(255, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 70px 5px rgba(255, 0, 0, 0.75);
+}
+
+
+
+a:nth-child(1) {
+    margin-left: -200px;
+    background: #f1f1f1;
+}
+
+a:nth-child(2) {
+    margin-right: -200px;
+    color: #e14b4b;
+}
